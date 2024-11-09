@@ -1,5 +1,5 @@
 {
-  "name": "first-package",
+  "name": "hay86der-first-package",
   "version": "0.0.1",
   "description": "This is a test package.",
   "main": "./dist/index.js",
@@ -7,6 +7,9 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "url": "https://github.com/hayder86al/first-package"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsup"
